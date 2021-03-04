@@ -38,6 +38,8 @@ func main() {
 	fmt.Println(runtime.NumGoroutine())
 
 }
+
+//
 func fanIn(a ...<-chan Result) {
 
 	after := time.After(50 * time.Millisecond)
